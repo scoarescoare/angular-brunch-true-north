@@ -1,0 +1,16 @@
+**/.DS_Store
+nbproject
+manifest.mf
+build.xml
+
+.project
+.settings
+# IntelliJ IDEA
+workspace.xml
+tasks.xml
+
+_public
+node_modules/*
+npm-debug.log
+
+test/test-results.xml
