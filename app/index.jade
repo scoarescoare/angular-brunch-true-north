@@ -7,75 +7,75 @@
   script(src='http://cdnjs.cloudflare.com/ajax/libs/json2/20110223/json2.js')
 
 //if lt IE 7
-    != beg + ' lt-ie9 lt-ie8 lt-ie7' + end
-    //- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
-        chromium.org/developers/how-tos/chrome-frame-getting-started
-    script(defer, src='//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js')
-    script(defer) window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})
+  != beg + ' lt-ie9 lt-ie8 lt-ie7' + end
+  //- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+      chromium.org/developers/how-tos/chrome-frame-getting-started
+  script(defer, src='//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js')
+  script(defer) window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})
 
 //if IE 7
-    != beg + ' lt-ie9 lt-ie8' + end
+  != beg + ' lt-ie9 lt-ie8' + end
 
 //if IE 8
-    != beg + ' lt-ie9' + end
+  != beg + ' lt-ie9' + end
 
 //- Consider adding a manifest.appcache: h5bp.com/d/Offline
 //if gt IE 8
-    != '<!-->' + beg + end + '<!--'
+  != '<!-->' + beg + end + '<!--'
 
 head
-    meta(charset='utf-8')
-
+  meta(charset='utf-8')
     //-
-        Use the .htaccess and remove these lines to avoid edge case issues.
-        More info: h5bp.com/b/378
-    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+      Use the .htaccess and remove these lines to avoid edge case issues.
+      More info: h5bp.com/b/378
+  meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
 
-    title
-    meta(name='description', content='')
-    meta(name='author', content='')
+  title
+  meta(name='description', content='')
+  meta(name='author', content='')
 
-    //- Mobile viewport optimized: h5bp.com/viewport
-    meta(name='viewport', content='width=device-width,initial-scale=1')
+  //- Mobile viewport optimized: h5bp.com/viewport
+  meta(name='viewport', content='width=device-width,initial-scale=1')
 
-    //- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons
+  //- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons
 
-    link(rel='stylesheet', href='css/app.css')
+  link(rel='stylesheet', href='css/app.css')
 
-    //- More ideas for your <head> here: h5bp.com/d/head-Tips
+  //- More ideas for your <head> here: h5bp.com/d/head-Tips
 
-    //-
-        All JavaScript at the bottom, except this Modernizr build incl. Respond.js
-        Respond is a polyfill for min/max-width media queries. Modernizr enables HTML5 elements & feature detects;
-        for optimal performance, create your own custom Modernizr build: www.modernizr.com/download/
-    script(src='js/modernizr.js')
-    script
-          window.brunch = window.brunch || {};
-          window.brunch['auto-reload'] = { enabled: true };
+  //-
+    All JavaScript at the bottom, except this Modernizr build incl. Respond.js
+    Respond is a polyfill for min/max-width media queries. Modernizr enables HTML5 elements & feature detects;
+    for optimal performance, create your own custom Modernizr build: www.modernizr.com/download/
+  script(src='js/modernizr.js')
+
+  script
+    window.brunch = window.brunch || {};
+    window.brunch['auto-reload'] = { enabled: true };
 
 body(ng-controller='AppCtrl')
-    .wrapper
-      .navbar.navbar-static-top
-        .navbar-inner
-          .container
-            button.btn.btn-navbar(data-toggle='collapse', data-target='.nav-collapse')
-              span.icon-bar
-              span.icon-bar
-              span.icon-bar
-            a(href='/').brand Angular Brunch Seed
-            .nav-collapse
-              div(ng-include="'/partials/nav.html'")
-      .container.main-content
-        div(ng-view)
-        div Angular Brunch seed app: v<span app-version></span>
-      .push
+  .wrapper
+    .navbar.navbar-static-top
+      .navbar-inner
+        .container
+          button.btn.btn-navbar(data-toggle='collapse', data-target='.nav-collapse')
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a(href='/').brand Angular Brunch Seed
+          .nav-collapse
+            div(ng-include="'/partials/nav.html'")
+    .container.main-content
+      div(ng-view)
+      div Angular Brunch seed app: v<span app-version></span>
+    .push
 
-    footer.footer
-      .container
-        p
-          small
-            a(href='https://github.com/scotch/angular-brunch-seed') angular-brunch-seed | source
+  footer.footer
+    .container
+      p
+        small
+          a(href='https://github.com/scotch/angular-brunch-seed') angular-brunch-seed | source
 
-    //- JavaScript at the bottom for fast page loading
-    script(src='/js/vendor.js')
-    script(src='/js/app.js')
+  //- JavaScript at the bottom for fast page loading
+  script(src='/js/vendor.js')
+  script(src='/js/app.js')
