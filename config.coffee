@@ -9,7 +9,8 @@ exports.config =
     javascripts:
       joinTo:
         'js/app.js': /^app/
-        'js/vendor.js': /^vendor/
+        'js/vendor.js': (path) -> path.indexOf("vendor") isnt -1 and path.indexOf("modernizr") is -1
+        'js/modernizr.js': (path) -> path.indexOf('modernizr') isnt -1
         'test/scenarios.js': /^test(\/|\\)e2e/
       order:
         before: [
@@ -18,7 +19,6 @@ exports.config =
           'vendor/scripts/angular/angular.js'
           'vendor/scripts/angular/angular-resource.js'
           'vendor/scripts/angular/angular-cookies.js'
-          'vendor/scripts/bootstrap/bootstrap.js'
         ]
 
     stylesheets:
