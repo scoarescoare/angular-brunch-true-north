@@ -123,9 +123,9 @@ fetch the changes and merge them into your project with git.
         themes/               --> a place for custom themes
           custom/             --> starter theme **NOTE the underscore (_). Files begining with an
                                   underscore will not automatically be compiled, they must be imported.
-            _override.less    --> styles that should beloaded after bootstrap.
-            _variables.less   --> bootstrap variables to be used during the compilation process
-        app.less              --> a file for importing styles.
+            _override.sass    --> styles that should beloaded after bootstrap.
+            _variables.sass   --> bootstrap variables to be used during the compilation process
+        app.sass              --> a file for importing styles.
       app.coffee              --> application definition and routes.
       index.jade              --> Index file. This will be converted to assets/index.html on save
       init.coffee             --> application bootstrap
@@ -164,20 +164,10 @@ fetch the changes and merge them into your project with git.
         console-helper.js     --> makes it safe to do `console.log()` always
         jquery-1.8.3.js       --> for use with bootstrap-collapse
       styles/                 --> sapling / sapling themes and 3 party CSS
-        bootstrap/            --> boostrap files - **NOTE** the underscore prevents the
-          _*.less                 files from automatically being added to application.css
-        sapling               --> extends boostrap
-          _*.less
-        themes                --> themes to extend Bootstrap
-          default             --> the default bootstrap theme
-            _overrides.less
-            _variables.less
-          sapling             --> supplemental theme
-            _overrides.less
-            _variables.less
+        bootstrap/            --> boostrap and compass files 
 
 ## Contributers
 
-[Complete list of code contributers](https://github.com/scotch/angular-brunch-seed/graphs/contributors)
+[Complete list of code contributers](https://github.com/scoarescoare/angular-brunch-sass/graphs/contributors)
 
 For more information on angular please check out <http://angularjs.org>
