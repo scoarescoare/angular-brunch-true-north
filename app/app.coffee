@@ -18,9 +18,12 @@ App.config([
 
   $routeProvider
 
-    .when('/todo', {templateUrl: '/partials/todo.html'})
-    .when('/view1', {templateUrl: '/partials/partial1.html'})
-    .when('/view2', {templateUrl: '/partials/partial2.html'})
+    .when('/todo', {templateUrl: '/partials/todo.html', \
+                    controller: 'AppCtrl'})
+    .when('/view1', {templateUrl: '/partials/partial1.html', \
+                    controller: 'AppCtrl'})
+    .when('/view2', {templateUrl: '/partials/partial2.html', \
+                    controller: 'AppCtrl'})
 
     # Catch all
     .otherwise({redirectTo: '/todo'})
