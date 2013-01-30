@@ -1,10 +1,11 @@
-# angular-brunch-seed
+# angular-brunch-sass
 ### A starter project for AngularJS using Brunch.io
 
 [AngularJS](http://angularjs.org) + [Brunch](http://brunch.io)
 
 Features:
-* Coffeescript / Jade / Less / SASS / SCSS / Stylus automatically compiled on save
+* Coffeescript / Jade / SASS / SCSS automatically compiled on save
+* HTML5BP, Modernizr, and all the goodness of [initializr](http://www.initializr.com)
 * auto-reload during development saves you from manually refreshing the page
 * Javascript / CSS minification for production
 * [testacular](https://github.com/vojtajina/testacular) integration for
@@ -13,17 +14,18 @@ Features:
 
 ## Alternate Versions
 
+- [Original angular-brunch-seed](https://github.com/scotch/angular-brunch-seed)
 - [Livescript](https://github.com/clkao/angular-brunch-seed-livescript) by [Chia-liang Kao](https://github.com/clkao)
 
-## How to use angular-brunch-seed
+## How to use angular-brunch-sass
 
-* `git clone https://github.com/scotch/angular-brunch-seed.git` to clone the **angular-brunch-seed** repository
-* `cd angular-brunch-seed`
+* `git clone https://github.com/scoarescoare/angular-brunch-sass` to clone the **angular-brunch-sass** repository
+* `cd angular-brunch-sass`
 * `./scripts/init.sh` to install node packages
 
 or if you have **Brunch** installed run:
 
-`brunch new myapp --skeleton https://github.com/scotch/angular-brunch-seed`
+`brunch new myapp --skeleton https://github.com/scoarescoare/angular-brunch-sass`
 
 
 ### Using Jade
@@ -105,11 +107,6 @@ fetch the changes and merge them into your project with git.
         font/                 --> [fontawesome](http://fortawesome.github.com/Font-Awesome/) rendering icons
           fontawesome-webfont.*
         img/                  --> image files
-        partials/             --> angular view partials (partial HTML templates)
-          nav.html                If you are using HTML you may modify these files directly.
-          partial1.html           If you are using Jade these file will be update from their *.jade counterpart
-          partial2.html
-        index.html            --> app layout file (the main html template file of the app).
 
       partials/               --> Jade partial files. This file will be converted to HTML upon save.
         nav.jade              If you are using HTML this directory will not be present. You will find the template file

@@ -4,5 +4,5 @@
 ***
 
 * Use Coffeescript for scripts
-* Use Less for styles
+* Use SASS for styles
 * Use Jade for templates

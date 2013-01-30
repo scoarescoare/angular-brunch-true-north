@@ -1,12 +1,12 @@
 {
-  "author": "Kyle Finley <kyle.finley@gmail.com>",
-  "name": "sapling-seed",
-  "description": "AngularJS + Brunch",
-  "version": "0.1.0",
-  "homepage": "https://github.com/scotch/angular-brunch-seed",
+  "author": "Scott Coates <scoarescoare@gmail.com>",
+  "name": "angular-brunch-seed",
+  "description": "AngularJS + Brunch + SASS",
+  "version": "0.0.1",
+  "homepage": "https://github.com/scoarescoare/angular-brunch-sass",
   "repository": {
     "type": "git",
-    "url": "https://github.com/scotch/angular-brunch-seed"
+    "url": "https://github.com/scoarescoare/angular-brunch-sass"
   },
   "engines": {
     "node": "~0.6.10 || 0.8 || 0.9"

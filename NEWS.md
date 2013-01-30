@@ -1,8 +1,16 @@
 ###### Notice ######
 
-*This file documents the changes in **angular-brunch-seed** versions that are listed below.*
+*This file documents the changes in **angular-brunch-sass** versions that are listed below.*
 
 * * *
+
+### 0.0.1 ###
+
+2013-01-29
+
++ moved into forked repo https://github.com/scoarescoare/angular-brunch-sass
+
+### 0.0.5 ###
 
 ### 0.0.6 ###
 
