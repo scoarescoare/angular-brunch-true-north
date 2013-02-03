@@ -1,6 +1,6 @@
 ###### Notice ######
 
-*This file documents the changes in **angular-brunch-sass** versions that are listed below.*
+*This file documents the changes in **angular-brunch-true-north** versions that are listed below.*
 
 * * *
 
@@ -8,7 +8,7 @@
 
 2013-01-29
 
-+ moved into forked repo https://github.com/scoarescoare/angular-brunch-sass
++ moved into forked repo https://github.com/scoarescoare/angular-brunch-true-north
 
 ### 0.0.5 ###
 

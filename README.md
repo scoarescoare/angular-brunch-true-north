@@ -1,4 +1,4 @@
-# angular-brunch-sass
+# angular-brunch-true-north
 ### A starter project for AngularJS using Brunch.io
 
 [AngularJS](http://angularjs.org) + [Brunch](http://brunch.io)
@@ -18,15 +18,15 @@ Features:
 - [Original angular-brunch-seed](https://github.com/scotch/angular-brunch-seed)
 - [Livescript](https://github.com/clkao/angular-brunch-seed-livescript) by [Chia-liang Kao](https://github.com/clkao)
 
-## How to use angular-brunch-sass
+## How to use angular-brunch-true-north
 
-* `git clone https://github.com/scoarescoare/angular-brunch-sass` to clone the **angular-brunch-sass** repository
-* `cd angular-brunch-sass`
+* `git clone https://github.com/scoarescoare/angular-brunch-true-north` to clone the **angular-brunch-true-north** repository
+* `cd angular-brunch-true-north`
 * `./scripts/init.sh` to install node packages
 
 or if you have **Brunch** installed run:
 
-`brunch new myapp --skeleton https://github.com/scoarescoare/angular-brunch-sass`
+`brunch new myapp --skeleton https://github.com/scoarescoare/angular-brunch-true-north`
 
 
 ### Using Jade
@@ -169,6 +169,6 @@ fetch the changes and merge them into your project with git.
 
 ## Contributers
 
-[Complete list of code contributers](https://github.com/scoarescoare/angular-brunch-sass/graphs/contributors)
+[Complete list of code contributers](https://github.com/scoarescoare/angular-brunch-true-north/graphs/contributors)
 
 For more information on angular please check out <http://angularjs.org>
