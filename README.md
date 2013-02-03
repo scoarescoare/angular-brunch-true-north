@@ -6,6 +6,7 @@
 Features:
 * Coffeescript / Jade / SASS / SCSS automatically compiled on save
 * HTML5BP, Modernizr, and all the goodness of [initializr](http://www.initializr.com)
+* [Compass-Twitter-Bootstrap](https://github.com/vwall/compass-twitter-bootstrap) integration
 * auto-reload during development saves you from manually refreshing the page
 * Javascript / CSS minification for production
 * [testacular](https://github.com/vojtajina/testacular) integration for
