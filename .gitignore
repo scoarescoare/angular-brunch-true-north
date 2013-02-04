@@ -6,6 +6,7 @@ build.xml
 .project
 .settings
 .idea/*
+*.iml
 
 _public
 node_modules/*
